@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projets - Vision Ingénierie Réunion</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/a2e0b2f2f2.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <header>
+    <h1><i class="fas fa-drafting-compass"></i> Vision Ingénierie Réunion</h1>
+    <nav>
+      <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
+      <a href="apropos.html"><i class="fas fa-user"></i> À propos</a>
+      <a href="projets.html" class="active"><i class="fas fa-project-diagram"></i> Projets</a>
+      <a href="blog.html"><i class="fas fa-newspaper"></i> Blog</a>
+      <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+    </nav>
+  </header>
+
+  <section class="intro" data-sr>
+    <h2>Nos projets récents</h2>
+    <p>Découvrez quelques-unes de nos réalisations qui témoignent de notre savoir-faire et de notre engagement pour La Réunion.</p>
+  </section>
+
+  <section class="projects" data-sr>
+    <article class="project-card">
+      <img src="images/projet1.jpg" alt="Projet Résidentiel" />
+      <div class="project-info">
+        <h3>Complexe résidentiel Saint-Denis</h3>
+        <p>Étude structurelle et suivi rigoureux de la construction d’un ensemble de 50 logements, en intégrant des normes sismiques renforcées.</p>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <img src="images/projet2.jpg" alt="Projet Commercial" />
+      <div class="project-info">
+        <h3>Centre commercial Le Port</h3>
+        <p>Analyse technique et optimisation des fondations pour un bâtiment à haute fréquentation avec contraintes environnementales.</p>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <img src="images/projet3.jpg" alt="Projet Public" />
+      <div class="project-info">
+        <h3>École primaire durable</h3>
+        <p>Accompagnement à la construction d’un établissement scolaire intégrant des solutions écologiques adaptées au climat réunionnais.</p>
+      </div>
+    </article>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vision Ingénierie Réunion - Tous droits réservés</p>
+  </footer>
+
+  <script>
+    ScrollReveal().reveal('[data-sr]', { distance: '40px', duration: 800, easing: 'ease-out', origin: 'bottom', interval: 200 });
+  </script>
+</body>
+</html>
