@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Vision Ingénierie Réunion</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/a2e0b2f2f2.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <header>
+    <h1><i class="fas fa-drafting-compass"></i> Vision Ingénierie Réunion</h1>
+    <nav>
+      <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
+      <a href="apropos.html"><i class="fas fa-user"></i> À propos</a>
+      <a href="projets.html"><i class="fas fa-project-diagram"></i> Projets</a>
+      <a href="blog.html"><i class="fas fa-newspaper"></i> Blog</a>
+      <a href="contact.html" class="active"><i class="fas fa-envelope"></i> Contact</a>
+    </nav>
+  </header>
+
+  <section class="intro" data-sr>
+    <h2>Contactez-nous</h2>
+    <p>Pour toute demande, remplissez le formulaire ci-dessous, nous vous répondrons rapidement.</p>
+  </section>
+
+  <section class="contact-form" data-sr>
+    <form action="#" method="post" onsubmit="return false;">
+      <label for="name">Nom complet <i class="fas fa-user"></i></label>
+      <input type="text" id="name" name="name" placeholder="Votre nom complet" required />
+
+      <label for="email">Email <i class="fas fa-envelope"></i></label>
+      <input type="email" id="email" name="email" placeholder="votre.email@example.com" required />
+
+      <label for="subject">Sujet <i class="fas fa-tag"></i></label>
+      <input type="text" id="subject" name="subject" placeholder="Sujet de votre message" required />
+
+      <label for="message">Message <i class="fas fa-comment"></i></label>
+      <textarea id="message" name="message" placeholder="Votre message ici..." rows="6" required></textarea>
+
+      <button type="submit" class="button"><i class="fas fa-paper-plane"></i> Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vision Ingénierie Réunion - Tous droits réservés</p>
+  </footer>
+
+  <script>
+    ScrollReveal().reveal('[data-sr]', { distance: '40px', duration: 800, easing: 'ease-out', origin: 'bottom', interval: 200 });
+  </script>
+</body>
+</html>
