@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>À propos - Vision Ingénierie Réunion</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/a2e0b2f2f2.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <header>
+    <h1><i class="fas fa-drafting-compass"></i> Vision Ingénierie Réunion</h1>
+    <nav>
+      <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
+      <a href="apropos.html"><i class="fas fa-user"></i> À propos</a>
+      <a href="projets.html"><i class="fas fa-project-diagram"></i> Projets</a>
+      <a href="blog.html"><i class="fas fa-newspaper"></i> Blog</a>
+      <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2 data-sr>Qui sommes-nous ?</h2>
+    <p data-sr>Vision Ingénierie Réunion est un bureau d'études techniques implanté au cœur de l'île, dédié à accompagner les projets de construction, de la conception au suivi de chantier.</p>
+  </section>
+
+  <section>
+    <h2 data-sr>Le fondateur</h2>
+    <div class="card founder" data-sr>
+      <img src="images/fondateur.jpg" alt="Fondateur">
+      <div>
+        <h3>Jean-Mickaël Payet</h3>
+        <p>Âgé de 38 ans, ingénieur structure diplômé, Jean-Mickaël a grandi à Saint-Paul. Fort de 15 années d’expérience entre métropole et océan Indien, il revient sur son île natale pour fonder Vision Ingénierie, afin de proposer une expertise technique rigoureuse et un accompagnement humain et durable.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="values">
+    <h2 data-sr>Nos engagements</h2>
+    <ul data-sr>
+      <li><strong>Qualité :</strong> chaque projet est pensé pour durer.</li>
+      <li><strong>Transparence :</strong> un accompagnement clair à chaque étape.</li>
+      <li><strong>Ancrage local :</strong> des solutions pensées pour La Réunion.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vision Ingénierie Réunion - Tous droits réservés</p>
+  </footer>
+
+  <script>
+    ScrollReveal().reveal('[data-sr]', { distance: '40px', duration: 800, easing: 'ease-out', origin: 'bottom', interval: 200 });
+  </script>
+</body>
+</html>
