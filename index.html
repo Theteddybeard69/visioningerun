@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vision Ingénierie Réunion</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <script src="https://kit.fontawesome.com/a2e0b2f2f2.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <header>
+    <h1><i class="fas fa-drafting-compass"></i> Vision Ingénierie Réunion</h1>
+    <nav>
+      <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
+      <a href="apropos.html"><i class="fas fa-user"></i> À propos</a>
+      <a href="projets.html"><i class="fas fa-project-diagram"></i> Projets</a>
+      <a href="blog.html"><i class="fas fa-newspaper"></i> Blog</a>
+      <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2 data-sr>Construisons l’ingénierie de demain, dès aujourd’hui</h2>
+    <p data-sr>
+      Vision Ingénierie Réunion accompagne vos projets de construction avec rigueur, expertise et engagement local.
+    </p>
+    <a href="contact.html" class="button" data-sr><i class="fas fa-paper-plane"></i> Demander un devis</a>
+  </section>
+
+  <section>
+    <h2 data-sr>Nos Valeurs</h2>
+    <div class="card" data-sr>
+      <h3><i class="fas fa-bullseye"></i> Précision</h3>
+      <p>Chaque détail compte, chaque calcul a du sens.</p>
+    </div>
+    <div class="card" data-sr>
+      <h3><i class="fas fa-leaf"></i> Responsabilité</h3>
+      <p>Nous intégrons l’environnement et la sécurité au cœur de nos projets.</p>
+    </div>
+    <div class="card" data-sr>
+      <h3><i class="fas fa-lightbulb"></i> Innovation</h3>
+      <p>Des méthodes modernes et une amélioration continue.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2 data-sr>Galerie de Réalisations</h2>
+    <div class="carousel" data-sr>
+      <img src="images/projet1.jpg" alt="Projet 1">
+      <img src="images/projet2.jpg" alt="Projet 2">
+      <img src="images/projet3.jpg" alt="Projet 3">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vision Ingénierie Réunion - Tous droits réservés</p>
+  </footer>
+
+  <script>
+    ScrollReveal().reveal('[data-sr]', { distance: '40px', duration: 800, easing: 'ease-out', origin: 'bottom', interval: 200 });
+  </script>
+</body>
+</html>
